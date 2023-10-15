@@ -1,4 +1,5 @@
-import NavMenu from './NavMenu';
+import NavMenu from '../app/components/NavMenu';
+import '../app/globals.css';
 
 const Create = () => {
   return (

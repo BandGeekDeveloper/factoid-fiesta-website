@@ -9,11 +9,5 @@ module.exports = {
 
   daisyui: {
     themes: ['garden', 'dracula'],
-    darkTheme: false,
-    base: true,
-    styled: true,
-    utils: true,
-    rtl: false,
-    logs: true,
   },
 };

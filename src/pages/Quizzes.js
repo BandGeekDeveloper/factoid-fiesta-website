@@ -1,8 +1,9 @@
-import NavMenu from './NavMenu';
+import NavMenu from '../app/components/NavMenu';
+import '../app/globals.css';
 
 const Quizzes = () => {
   return (
-    <div>
+    <div className='w-full h-screen'>
       <NavMenu />
       Quizzes
     </div>

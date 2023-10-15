@@ -1,0 +1,19 @@
+{
+  "categories": {
+    "Overwatch": {
+      "id": 1,
+      "name": "Overwatch",
+      "icon": "../assets/overwatchIcon.png"
+    },
+    "Sports": {
+      "id": 2,
+      "name": "Sports",
+      "icon": "../assets/sportsIcon.png"
+    },
+    "Movies": {
+      "id": 3,
+      "name": "Movies",
+      "icon": "../assets/moviesIcon.png"
+    }
+  }
+}
