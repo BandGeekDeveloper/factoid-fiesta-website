@@ -1,4 +1,6 @@
+import React from 'react';
 import { HiMenuAlt1 } from 'react-icons/hi';
+import Link from 'next/link';
 
 const NavMenu = () => {
   return (
@@ -12,23 +14,23 @@ const NavMenu = () => {
         <div className='hidden lg:flex text-base-100'>
           <ul className='flex flex-row justify-end m-auto mr-6 space-x-4'>
             <li>
-              <button href='/' id='home' className='btn btn-ghost'>
-                Home
+              <button className='normal-case btn btn-ghost hover:bg-base-100/25'>
+                <Link href='/'>Home</Link>
               </button>
             </li>
             <li>
-              <button href='/quizzes' id='quizzes' className='btn btn-ghost'>
-                Quizzes
+              <button className='normal-case btn btn-ghost hover:bg-base-100/25'>
+                <Link href='/Quizzes'>Quizzes</Link>
               </button>
             </li>
             <li>
-              <button href='/create' id='create' className='btn btn-ghost'>
-                Create
+              <button className='normal-case btn btn-ghost hover:bg-base-100/25'>
+                <Link href='/Create'>Create Quiz</Link>
               </button>
             </li>
             <li>
-              <button href='/bot' id='discordBot' className='btn btn-ghost'>
-                Discord Bot
+              <button className='normal-case btn btn-ghost hover:bg-base-100/25'>
+                <Link href='/Bot'>Discord Bot</Link>
               </button>
             </li>
           </ul>

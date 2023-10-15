@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "babel-runtime-corejs3": "^0.1.0",
     "next": "13.5.4",
+    "next-navigation": "^1.0.6",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.11.0"
