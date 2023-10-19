@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const Quiz = require('./quizzes');
-const Category = require('./category');
+const Quiz = require('./quizModel');
+const Category = require('./categoryModel');
 
 const questionSchema = new mongoose.Schema({
   questionText: {
