@@ -14,7 +14,7 @@ const quizSchema = new mongoose.Schema({
     trim: true,
   },
 
-  category: {
+  categoryId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Category',
   },
