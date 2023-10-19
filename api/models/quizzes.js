@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const Category = require('./categories');
 
 const quizSchema = new mongoose.Schema({
   quizName: {
@@ -12,9 +13,23 @@ const quizSchema = new mongoose.Schema({
     default: 'No description Provided',
     trim: true,
   },
+
   category: {
-    type: ,
-    required: true,
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Category',
+  },
+
+  createdBy: {
+    type: String,
+    default: 'Anonymous',
     trim: true,
-  }
+  },
+
+  createdAt: {
+    type: Date,
+    default: Date.now,
+  },
 });
+
+const Quiz = mongoose.model('Quiz', quizSchema);
+module.exports = Quiz;
